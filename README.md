@@ -59,7 +59,7 @@ Led data analysis initiatives for a high-volume e-commerce operation processing 
 
 ---
 
-### 🐾 [PetFlow](https://petflow.pro) — Veterinary SaaS Platform
+### 🐾 [PetFlow.PRO](https://petflow.pro) — Veterinary SaaS Platform
 Full-stack SaaS application built for veterinary clinics and pet-related businesses. Includes scheduling, client management, and an integrated blog system.  
 → [petflow.pro](https://petflow.pro) · [petflow.pro/blog](https://petflow.pro/blog)
 
