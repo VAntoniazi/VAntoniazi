@@ -1,6 +1,6 @@
 # Victor Antoniazi Gonzalez
 
-**Software Developer · Full-Stack & Backend Systems · AI-Assisted Development · Data & Automation**
+**Software Developer · Backend & Full-Stack Systems · AI-Assisted Development · Data & Automation**
 
 Brazilian developer based between Brazil and Buenos Aires, Argentina. I build production software for **SaaS, enterprise operations, healthcare, data-intensive workflows and automation**, with a strong focus on maintainability, security, observability and pragmatic use of artificial intelligence.
 
@@ -12,11 +12,11 @@ My background also includes scientific research and healthcare, which gives me d
 
 ## What I Work On
 
-- **Full-stack software development** — web applications, internal systems, SaaS products, APIs and operational tooling.
+- **Backend & full-stack software development** — web applications, internal systems, SaaS products, APIs and operational tooling.
 - **Backend & API design** — REST APIs, service/repository layers, multi-tenant systems, integrations, background jobs and data synchronization.
 - **Legacy modernization** — incremental refactoring, migration from tightly coupled applications to modular architectures, API-first boundaries and safer deployment workflows.
 - **Security-oriented development** — authentication, authorization, RBAC, tenant isolation, CSRF protection, secure session/token design, opaque public identifiers, input validation, rate limiting, auditability and secret management.
-- **Data & automation** — SQL, transactional datasets, operational analytics, ETL-style routines, workflow automation and research datasets.
+- **Data-intensive systems** — SQL, large transactional datasets, operational analytics, ETL-style routines, workflow automation and research datasets.
 - **AI-assisted development** — structured prompting, code generation, refactoring, test generation, documentation, debugging and technical review with human validation.
 - **DevOps & delivery** — Docker, Nginx, PHP-FPM, Linux, CI/CD, Azure DevOps, GitHub and production-oriented environment separation.
 
@@ -56,7 +56,7 @@ I treat AI as an engineering accelerator, not as an authority. The objective is 
 | Area | Practices |
 |---|---|
 | **Architecture** | MVC, Controller/Service/Repository separation, modular domains, API-first boundaries, background workers, transactional workflows |
-| **Backend** | PHP, Python, FastAPI-oriented services, Node.js, REST APIs, server-side validation, integrations |
+| **Backend** | PHP, Python, Go, FastAPI-oriented services, Node.js, REST APIs, server-side validation, integrations |
 | **Frontend** | JavaScript, TypeScript, React, responsive interfaces, progressive enhancement, reusable UI components |
 | **Databases** | PostgreSQL, MySQL/MariaDB, schema design, foreign keys, transactions, idempotency, prepared statements |
 | **Security** | RBAC, tenant isolation, JWT/session controls, CSRF, Argon2id/password hashing, opaque IDs, rate limiting, audit logs, secret separation |
@@ -119,60 +119,84 @@ Some repositories are synchronized or mirrored between **corporate version-contr
 
 ---
 
-### 🍍 Pineapple Lab — Web Platform & Automation Ecosystem
+### 🍍 Pineapple Lab — Service Business Platform, Portfolio & Contract Management
 
-A collection of web, portal, messaging and infrastructure services used for product experiments, automation and production tooling.
+Pineapple Lab is the system I developed to support my own activity as an independent software/service provider. It combines the public-facing side of my work with the operational tools I use to organize service delivery.
 
-The main web platform uses a static-first delivery path for the public site plus a PHP MVC application for dynamic content, with **PostgreSQL, Docker, Nginx, Node-based build validation and production deployment tooling**.
+The ecosystem includes:
 
-Related private repositories cover portal/application services, messaging integrations, routines and supporting infrastructure.
+- my professional landing page and public presentation;
+- presentation of products and services;
+- management of contracts and information related to service engagements;
+- client/service-provider operational workflows;
+- portal and supporting application services;
+- messaging and automation integrations;
+- internal routines and infrastructure used to support my work.
+
+The main web platform uses a static-first delivery path for public content together with a PHP MVC application for dynamic features, supported by **PostgreSQL, Docker, Nginx and Node-based build/deployment validation**.
+
+Rather than being only a portfolio website, Pineapple Lab functions as part of the operational software behind my own service business.
 
 ---
 
-### 🐶 PetFlow.PRO — Earlier Veterinary SaaS Ecosystem
+### 🐶 PetFlow.PRO — Original Veterinary SaaS / Predecessor to PinePet
 
-An earlier generation of veterinary/pet-business software that evolved across multiple repositories and services, including application, portal, onboarding/login, Node.js services, messaging integrations and regional variants.
+PetFlow.PRO was the initial version of the veterinary/pet-business SaaS concept that later gave rise to **PinePet**.
+
+It evolved across multiple repositories and services, including application, portal, onboarding/login, Node.js services, messaging integrations and regional variants. The experience accumulated in PetFlow.PRO exposed architectural and product limitations that motivated a **large-scale redesign and restructuring**, ultimately leading to the current PinePet architecture.
 
 This project family contributed practical experience in:
 
-- splitting a product into deployable services;
+- product iteration from an initial architecture to a substantially redesigned system;
+- splitting functionality across deployable services;
 - Docker/Nginx/PHP/Node environments;
 - authentication and onboarding flows;
 - multi-application product architecture;
 - messaging integrations;
-- SaaS product iteration and migration toward newer architecture.
+- migration and modernization decisions based on lessons from a real previous version.
 
 ---
 
-### 🔬 PineLine & Research-Oriented Software
+### 🔬 PineLine — Research-Oriented Scientific Software
 
-Private research/software projects focused on scientific workflows, structured data and health-related applications. The repository family includes containerized PHP/Nginx application foundations and supporting app work.
+PineLine is a research-oriented software project designed to assist scientific production and structured research workflows.
 
-My research background influences how I approach software: traceability, reproducibility, explicit assumptions, measurable outcomes and careful treatment of data are part of the development process rather than afterthoughts.
+The project explores tooling for organizing and supporting activities such as research data handling, scientific workflow organization and other tasks around the production of academic work. It currently remains **in the background / not actively used in my day-to-day workflow**, but represents the application of software development to scientific-research processes.
 
----
-
-### 🏥 Healthcare Operational Software
-
-A private graduation intervention project for healthcare staffing/scheduling uses a layered **Controller → Service → Repository** architecture with **MySQL and Docker**.
-
-This work combines domain knowledge from nursing with software development for real operational constraints in healthcare environments.
+My research background influences how I approach this type of software: traceability, reproducibility, explicit assumptions, measurable outcomes and careful treatment of data are considered part of the development process rather than afterthoughts.
 
 ---
 
-### 📊 Data, Analytics & Scientific Research
+### 🏥 Nursing Graduation Intervention Project — Hospital Moinhos de Vento
 
-I also work with structured analytical datasets and scientific research.
+As part of my **Bachelor's degree in Nursing at Faculdade do Hospital Moinhos de Vento**, I developed an intervention project associated with **Hospital Moinhos de Vento** focused on improving healthcare staffing/schedule management.
 
-**Peer-reviewed publication:**
+The software was created to facilitate the organization and management of staff schedules under real operational constraints, translating a practical healthcare-management problem into a working software solution.
 
-**Economic Analysis of Falls in a Private Hospital in Southern Brazil — A Case-Control Study**  
+The project uses a layered **Controller → Service → Repository** architecture with **MySQL and Docker**, combining my nursing-domain experience with software development and process improvement.
+
+---
+
+### 📊 Scientific Research & Health-Economic Analysis
+
+My scientific work combines healthcare-domain knowledge, structured datasets, statistical analysis and economic evaluation.
+
+#### Published research
+
+**Economic Analysis of Falls in a Private Hospital in Southern Brazil: A Case-Control Study**  
+**Principal researcher / first author: Victor Antoniazi Gonzalez**  
 *International Journal of Nursing*  
+**Status:** Published  
 DOI: [10.1111/ijn.13313](https://doi.org/10.1111/ijn.13313) · PubMed: [39431424](https://pubmed.ncbi.nlm.nih.gov/39431424/)
 
-The work involved database construction, data validation, statistical analysis, cost modeling and scientific writing in English.
+The study involved **database construction, data validation, statistical analysis, economic/cost modeling and scientific writing in English**, applied to the financial impact of patient falls in a private hospital setting.
 
-I have also worked with large transactional datasets for business and research use cases, including data preparation, KPI modeling, operational analysis and automation.
+#### Ongoing research
+
+**Economic analysis of healthcare expenditure using DATASUS data**  
+**Status:** Ongoing
+
+An additional research project focused on comparing and analyzing healthcare expenditure using public health data from **DATASUS**, combining data preparation, economic analysis and health-system information to investigate expenditure patterns and related outcomes.
 
 ---
 
@@ -200,6 +224,7 @@ Where permitted, selected repositories or branches may be synchronized between s
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
@@ -235,7 +260,7 @@ Where permitted, selected repositories or branches may be synchronized between s
 - **Software development:** personal projects since **2018**; enterprise/corporate software since **2023–2024**.
 - **AI-assisted development:** continuous use since **late 2022 / early 2023**, evolving from conversational assistance to structured development workflows.
 - **Healthcare:** Bachelor's degree in Nursing — **completion expected in 2026**.
-- **Research:** scientific initiation, healthcare/economic research and peer-reviewed publication.
+- **Research:** principal-researcher/first-author experience, healthcare economic analysis, scientific initiation and peer-reviewed publication.
 - **Languages:** Portuguese, Spanish and English.
 - **Location:** permanent resident of Argentina, with activity between Buenos Aires and Brazil.
 
@@ -245,16 +270,21 @@ The combination of software, data, healthcare and research is especially useful 
 
 ## Professional Interests
 
-I am especially interested in software-development roles involving:
+My primary professional focus is **backend development with full-stack capability**. I am especially interested in roles where I can own meaningful parts of a system, work with substantial amounts of data and retain enough technical autonomy to investigate problems, design solutions and improve architecture rather than being limited to isolated implementation tasks.
+
+Areas of particular interest include:
 
 - backend and full-stack product development;
+- data-intensive applications and high-volume operational datasets;
 - SaaS platforms;
 - healthtech and health informatics;
 - API and systems integration;
 - legacy modernization;
 - AI-assisted development workflows;
-- automation and data-intensive applications;
+- automation and distributed/background processing;
 - secure internal/enterprise systems.
+
+I particularly value environments that combine **technical ownership, autonomy, complex data and real operational problems**.
 
 ---
 
