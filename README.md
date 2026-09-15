@@ -18,6 +18,7 @@ My background also includes scientific research and healthcare, which gives me d
 - **Security-oriented development** — authentication, authorization, RBAC, tenant isolation, CSRF protection, secure session/token design, opaque public identifiers, input validation, rate limiting, auditability and secret management.
 - **Data-intensive systems** — SQL, large transactional datasets, operational analytics, ETL-style routines, workflow automation and research datasets.
 - **AI-assisted development** — structured prompting, code generation, refactoring, test generation, documentation, debugging and technical review with human validation.
+- **AI-driven research & publishing automation** — source-grounded research, topic selection, editorial validation, scheduling, deduplication, SEO and controlled publication workflows.
 - **DevOps & delivery** — Docker, Nginx, PHP-FPM, Linux, CI/CD, Azure DevOps, GitHub and production-oriented environment separation.
 
 ---
@@ -49,6 +50,29 @@ I treat AI as an engineering accelerator, not as an authority. The objective is 
 - I avoid using a large model for tasks that deterministic code, SQL, static analysis or a small local model can solve more efficiently.
 - The goal is **useful AI**, not AI everywhere.
 
+### Automated Research & Editorial Publishing Systems
+
+I designed and developed automated editorial pipelines used across **PinePet, Pineapple Lab and earlier PetFlow.PRO implementations**. These systems go beyond simple AI text generation: they combine research, deterministic controls, editorial rules, scheduling and post lifecycle management around the language model.
+
+The workflow includes:
+
+- **topic discovery and research** based on current, relevant subjects within predefined business/editorial themes;
+- a managed **repository of categories and editorial scopes** that constrains what the system should research and publish;
+- **automatic or manual category selection**, while preserving operator control over themes and publication strategy;
+- comparison against previously generated/published subjects and configurable **duplicate-topic windows** to reduce repeated or overly similar articles;
+- manual ideas as well as automatically selected topics, with similarity checks before scheduling;
+- **calendar-based scheduling**, configurable publication intervals and multiple future publication dates;
+- configurable AI provider, text/image models, prompts, language, editorial format, author and publication destination;
+- research before generation, prioritizing **real, verifiable sources**, including primary/official sources and **scientific literature when relevant**;
+- generation followed by **editorial and structural validation**, rather than accepting model output directly;
+- source/reference persistence so generated claims can remain connected to the research used during production;
+- draft/review/published lifecycle control, article regeneration and controlled retry/cancellation of automation jobs;
+- SEO-oriented metadata generation and maintenance, together with search/indexing integrations;
+- background workers and queued jobs for generation and editorial maintenance instead of coupling expensive AI work to user HTTP requests;
+- administrative control over schedules, categories, prompts, publication states and generated content.
+
+The design principle is the same as in my development workflow: **AI performs the probabilistic work, while deterministic software controls scope, state, validation, scheduling, security and persistence**.
+
 ---
 
 ## Software Development Practices
@@ -64,7 +88,7 @@ I treat AI as an engineering accelerator, not as an authority. The objective is 
 | **Infrastructure** | Docker, Docker Compose, Nginx, PHP-FPM, Linux, environment separation, scheduled jobs, object storage |
 | **CI/CD** | Azure DevOps, GitHub, automated validation gates, branch-based delivery workflows |
 | **Data** | SQL, Python, R, Pandas, statistical analysis, operational analytics, scientific datasets |
-| **Automation** | Python/Node/PHP scripts, scheduled jobs, workflow automation, synchronization routines, messaging/integration services |
+| **Automation** | Python/Node/PHP scripts, background workers, scheduled jobs, queues, workflow automation, synchronization routines, messaging/integration services, AI-assisted editorial pipelines |
 
 ---
 
@@ -86,6 +110,7 @@ The ecosystem includes a public site and authenticated application with work acr
 - private object storage and signed media access;
 - OCR-assisted document workflows;
 - scheduled jobs and background processing;
+- **AI-assisted automated blog/research publishing with scheduling, category control, topic deduplication, source validation, editorial policies and SEO maintenance**;
 - responsive UI and deployment validation.
 
 The current architecture uses **PHP 8.x, PostgreSQL, Docker, Nginx, JavaScript/Node tooling and service/repository patterns**, with security controls such as CSRF validation, prepared statements, Argon2id, opaque identifiers and server-side authorization.
@@ -131,7 +156,10 @@ The ecosystem includes:
 - client/service-provider operational workflows;
 - portal and supporting application services;
 - messaging and automation integrations;
+- **an automated editorial/blog workflow for researching, generating, validating, scheduling and managing relevant content**;
 - internal routines and infrastructure used to support my work.
+
+The publishing workflow is designed around predefined categories and themes, avoids unnecessary repetition of prior subjects, preserves control over schedules and topics, and uses real references — including scientific literature when appropriate — as part of a more reliable content-generation process.
 
 The main web platform uses a static-first delivery path for public content together with a PHP MVC application for dynamic features, supported by **PostgreSQL, Docker, Nginx and Node-based build/deployment validation**.
 
@@ -143,7 +171,7 @@ Rather than being only a portfolio website, Pineapple Lab functions as part of t
 
 PetFlow.PRO was the initial version of the veterinary/pet-business SaaS concept that later gave rise to **PinePet**.
 
-It evolved across multiple repositories and services, including application, portal, onboarding/login, Node.js services, messaging integrations and regional variants. The experience accumulated in PetFlow.PRO exposed architectural and product limitations that motivated a **large-scale redesign and restructuring**, ultimately leading to the current PinePet architecture.
+It evolved across multiple repositories and services, including application, portal, onboarding/login, Node.js services, messaging integrations, regional variants and **automated blog/content publishing workflows**. The experience accumulated in PetFlow.PRO exposed architectural and product limitations that motivated a **large-scale redesign and restructuring**, ultimately leading to the current PinePet architecture.
 
 This project family contributed practical experience in:
 
@@ -153,6 +181,7 @@ This project family contributed practical experience in:
 - authentication and onboarding flows;
 - multi-application product architecture;
 - messaging integrations;
+- AI-assisted content/research automation and scheduled publishing;
 - migration and modernization decisions based on lessons from a real previous version.
 
 ---
@@ -251,7 +280,7 @@ Where permitted, selected repositories or branches may be synchronized between s
 
 ### AI Development Workflow
 
-**ChatGPT / OpenAI · Codex · Claude · local LLMs · prompt scripting · context engineering · AI-assisted code review · automated test generation · documentation automation**
+**ChatGPT / OpenAI · Codex · Claude · local LLMs · prompt scripting · context engineering · AI-assisted code review · automated test generation · source-grounded research automation · editorial validation · scheduled publishing · documentation automation**
 
 ---
 
