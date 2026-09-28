@@ -315,6 +315,20 @@ Areas of particular interest include:
 
 I particularly value environments that combine **technical ownership, autonomy, complex data and real operational problems**.
 
+
+---
+
+## Open-source experiments
+
+### Funny-button
+
+A tiny dependency-free browser interaction experiment built with plain HTML, CSS and JavaScript, with pointer/touch handling, viewport-aware positioning, CI validation and public contribution documentation.
+
+[![GitHub stars](https://img.shields.io/github/stars/VAntoniazi/Funny-button?style=flat-square&logo=github)](https://github.com/VAntoniazi/Funny-button)
+[![Repository](https://img.shields.io/badge/Repository-Funny--button-181717?style=flat-square&logo=github)](https://github.com/VAntoniazi/Funny-button)
+
+→ [View Funny-button on GitHub](https://github.com/VAntoniazi/Funny-button)
+
 ---
 
 ## Contact
