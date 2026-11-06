@@ -1,109 +1,144 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Victor Antoniazi Gonzalez — software engineering, backend, full-stack, SaaS, data and automation" width="100%">
+  <img src="./assets/profile-banner.svg" alt="Victor Antoniazi Gonzalez — backend and full-stack software developer, SaaS architecture, APIs, data and automation" width="100%">
 </p>
 
+<h1 align="center">Victor Antoniazi Gonzalez</h1>
 <p align="center">
-  <strong>Backend-focused Full-Stack Developer · Founder of Pineapple Lab · Interdisciplinary Researcher</strong>
+  <strong>Backend &amp; Full-Stack Software Developer | Software Architecture | SaaS | Data &amp; Automation</strong>
 </p>
-
 <p align="center">
-  Building software since 2018 · Brazil & Argentina · Portuguese / English / Spanish
+  Brazil &amp; Argentina · Building software since 2018 · Portuguese · English · Spanish
 </p>
-
 <p align="center">
-  <a href="https://pineapplelab.net/">Portfolio & services</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/victor-antoniazi/">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="./PROJECTS.md">Engineering portfolio</a> &nbsp;·&nbsp;
-  <a href="https://doi.org/10.1111/ijn.13313">Published research</a> &nbsp;·&nbsp;
-  <a href="mailto:victor@petflow.pro">Contact</a>
+  <a href="https://pineapplelab.net/">Website</a> ·
+  <a href="./PROJECTS.md">Engineering portfolio</a> ·
+  <a href="https://www.linkedin.com/in/victor-antoniazi/">LinkedIn</a> ·
+  <a href="https://orcid.org/0000-0001-7577-464X">ORCID</a> ·
+  <a href="mailto:victor@petflow.pro">Email</a>
+</p>
+<p align="center">
+  <strong>English</strong> · <a href="./README.pt-BR.md">Português (Brasil)</a> · <a href="./README.es.md">Español (Argentina)</a>
 </p>
 
 ---
 
-## About me
+## Software engineering for complex, real-world systems
 
-I am **Victor Antoniazi Gonzalez**, a software developer who builds and evolves **backend-heavy full-stack systems**. I work across application architecture, relational databases, APIs, modern web interfaces, integrations, infrastructure and automation.
+I'm **Victor Antoniazi Gonzalez**, a backend-focused full-stack developer working across **Brazil and Argentina**. I design, develop and modernize business software: **REST APIs, SaaS platforms, enterprise systems, data-intensive applications, integrations and automation**.
 
-My focus is turning **complex operational problems into maintainable software**: systems that handle real business rules, sensitive information, approval processes, multiple services and changing requirements.
+My work connects business requirements to technical delivery — from **SQL schema design and backend services** to **TypeScript/React interfaces, security controls, testing, Docker infrastructure and CI/CD**. I have built personal software projects since **2018** and worked on corporate software projects since **2023–2024**.
 
-I also bring experience in **healthcare and peer-reviewed scientific research**. That combination has shaped how I approach engineering: evidence, traceability, data quality and careful validation matter as much as shipping features.
+Beyond technology, I bring a background in **healthcare and peer-reviewed research**. It has taught me to value reproducibility, accurate data, explicit assumptions and reliable decision-making.
 
-> **What I aim to deliver:** dependable systems, clear technical boundaries and software that genuinely improves the way people work.
+**The problems I enjoy:** complicated workflows, legacy systems that need to evolve, multi-application products, sensitive data, difficult integrations and software that people depend on every day.
 
-## Engineering strengths
+## Core expertise
 
-| Focus | What I work on |
-| :--- | :--- |
-| **Backend engineering & APIs** | Python, FastAPI, PHP, Node.js, REST APIs, layered architecture, integrations, background processing |
-| **Full-stack product development** | TypeScript, JavaScript, React, reusable interfaces, responsive applications, business workflows |
-| **Architecture & modernization** | Legacy refactoring, API-first evolution, domain boundaries, Controller / Service / Repository patterns, incremental migrations |
-| **Data & automation** | PostgreSQL, MySQL, SQL, transactional workflows, ETL-style tasks, reports, job queues, external data synchronization |
-| **Security & reliability** | Authentication, granular RBAC, tenant isolation, audit trails, data validation, idempotency, testing and deployment safeguards |
-| **DevOps & delivery** | Docker, Docker Compose, Nginx, Linux, Git, GitHub, Azure DevOps and CI/CD workflows |
-| **Applied AI** | AI-assisted engineering, context engineering, research-backed content workflows, agent/tool orchestration and human-validated results |
+| Area | Engineering experience |
+| --- | --- |
+| **Backend engineering** | Python, FastAPI, PHP, Node.js, REST APIs, business logic, service and repository layers, asynchronous/background jobs |
+| **Full-stack development** | TypeScript, JavaScript, React, component-driven UI, responsive admin panels, complex forms and data-rich interfaces |
+| **Software architecture** | API-first design, modular domains, Controller → Service → Repository, legacy modernization, migrations and integration contracts |
+| **Data engineering & SQL** | PostgreSQL, MySQL, relational schemas, transactions, query design, data imports/exports, scheduled processing and operational analytics |
+| **Security & reliability** | Authentication, RBAC, permissions at resource level, tenant isolation, validation, auditability, idempotency and regression testing |
+| **DevOps & delivery** | Git, GitHub, Azure DevOps, Docker, Docker Compose, Nginx, Linux and deployment workflows |
+| **AI-assisted development** | Context engineering, implementation assistance, code review, task decomposition, test generation and source-grounded automation |
 
-### Technologies I use
+### Everyday technology stack
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-306998?style=flat-square&logo=python&logoColor=white">
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
   <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
   <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white">
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=nodedotjs&logoColor=white">
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
   <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
   <img alt="Azure DevOps" src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white">
 </p>
 
-**Also part of my toolbox:** Go, R, Pandas, NumPy, HTML/CSS, GitHub Actions, shell scripting, data visualization and scientific analysis.
+Also experienced with **Go, R, Pandas, NumPy, Linux scripting, scientific data analysis and relational database administration**. My tooling depends on the requirements of each system rather than a fixed technology preference.
 
-## Selected work
+## Featured engineering work
 
-My work ranges from business-critical enterprise systems to independent SaaS products, healthcare software and research tools. Below is a representative selection; [the detailed portfolio has additional context](./PROJECTS.md).
+These are representative **project families and domains**, not a list of invented public repositories or unverifiable impact metrics. Some codebases are private due to intellectual property and client confidentiality.
 
-| Project / domain | What I build or work on | Visibility |
-| :--- | :--- | :--- |
-| **Enterprise operations & compliance** | Modular enterprise applications, API modernization, permissions/RBAC, approvals, document workflows, fiscal and operational data, auditability and integrations. | Private / NDA |
-| **[PinePet](https://pinepet.com.br)** | Pet-business SaaS covering customer/pet management, scheduling, operations, point of sale, inventory, authentication, onboarding and supporting automation. | Product website |
-| **[Pineapple Lab](https://pineapplelab.net/)** | My software services business and supporting technology ecosystem: websites, business portals, custom software, integrations, data workflows and automation. | Public website / private systems |
-| **PetFlow.PRO** | Earlier SaaS ecosystem and its evolution across frontend, onboarding, service integration, architecture and deployment. | Mostly private |
-| **Healthcare workflow software** | Staff scheduling and operational organization developed in an academic healthcare intervention-project context. | Private |
-| **PineLine** | Exploratory scientific/research workflow tooling oriented toward structured information and reproducibility. | Private / exploratory |
+### 01. Enterprise platforms · operations, compliance & modernization
 
-<sub>Projects and features may be at different stages of development. Descriptions reflect areas of engineering work, not a claim that every feature is currently deployed. Private work is described without proprietary code or internal details.</sub>
+**Backend / architecture / full stack / security**
 
-### Public code worth exploring
+I work on enterprise applications where business processes need traceable data and strict access boundaries: **approvals, document workflows, financial and fiscal processes, people and organizational records, operational management, notifications and integrations**.
 
-**[Funny-button](https://github.com/VAntoniazi/Funny-button)** — a small, dependency-free frontend interaction experiment using native HTML, CSS and JavaScript, including pointer/touch support and viewport-aware behavior.
+The engineering challenge is often to modernize existing software without interrupting dependent workflows: disentangling legacy modules, designing API boundaries, preserving data integrity, improving role-based authorization and building repeatable validation and deployment processes.
 
-Most of my larger repositories are not public because they contain active products, company-owned systems or client-confidential work. **Public commit and repository counts alone do not represent my full development experience.**
+[Read the enterprise case study →](./PROJECTS.md#01--enterprise-systems-operations-and-compliance)
 
-## Beyond software: research & healthcare
+### 02. [PinePet](https://pinepet.com.br) · pet-business management SaaS
 
-I am the **first author** of a peer-reviewed study published in the *International Journal of Nursing Practice* (Wiley, 2024):
+**SaaS / product engineering / business workflows / data modeling**
 
-**[Economic Analysis of Falls in a Private Hospital in Southern Brazil—A Case–Control Study](https://doi.org/10.1111/ijn.13313)**
+A product ecosystem for pet shops, grooming services, veterinary operations and related businesses. My development work spans **customers and pets, scheduling, operational workflows, stock, point of sale, account onboarding, permissions, integrations and automation**.
 
-[Read on PubMed](https://pubmed.ncbi.nlm.nih.gov/39431424/) · [DOI: 10.1111/ijn.13313](https://doi.org/10.1111/ijn.13313)
+Its architecture brings together relational data, multi-tenant concerns, customer-facing UX and the operational complexity of a growing software product.
 
-The study examines the economic impact of inpatient falls through a matched case-control design. It reflects experience with healthcare data, research design, analysis, interpretation and international scientific publication.
+[Explore PinePet](https://pinepet.com.br) · [Product engineering details](./PROJECTS.md#02--pinepet-business-management-saas-for-pet-services)
 
-My academic background includes **Nursing studies at Faculdade Moinhos de Vento (2022–2026)**, alongside software development and research activities. I am particularly interested in the intersection of **healthtech, operational systems, research software and data-intensive products**.
+### 03. [Pineapple Lab](https://pineapplelab.net/) · software, integrations & automation
 
-## How I approach engineering
+**Independent software business / websites / applications / infrastructure**
 
-- **Understand the real problem first.** Map users, business rules, existing constraints and the cost of failure before choosing technology.
-- **Design for change.** Prefer clear contracts, modular services, reliable SQL and incremental modernization over unnecessary rewrites.
-- **Make correctness observable.** Use authorization controls, regression tests, audit trails, validation and actionable logging.
-- **Automate deliberately.** Use deterministic software for deterministic tasks; use AI when it produces measurable value, with review and safeguards.
-- **Own the full delivery path.** Connect product decisions to implementation, databases, infrastructure, deployment and long-term maintenance.
+I'm the **founder of Pineapple Lab**, where I build software and automation for practical business problems. The broader ecosystem combines a public business presence with supporting services for project operations, contracts, workflow organization, messaging, content processes and infrastructure.
 
-## Connect
+My approach is to prioritize **useful, maintainable automation**, not to add AI where simpler software would work better.
 
-I enjoy working on **backend/full-stack engineering, SaaS, complex integrations, modernization, healthcare technology and data-driven systems**, especially where technical ownership and real-world impact matter.
+[Visit Pineapple Lab](https://pineapplelab.net/) · [Engineering context](./PROJECTS.md#03--pineapple-lab-software-services-and-operations-platform)
 
-**[Website](https://pineapplelab.net/) · [LinkedIn](https://www.linkedin.com/in/victor-antoniazi/) · [Email](mailto:victor@petflow.pro) · [Complete engineering portfolio](./PROJECTS.md)**
+### 04. Healthcare software & scientific data
 
-<sub>Built with a focus on clarity, accessibility and accurate representation of public and private work — no inflated metrics or simulated activity.</sub>
+**Healthtech / operational workflows / data / research**
+
+My interdisciplinary work includes a healthcare staff-scheduling intervention project, research-oriented software experiments and a **2024 peer-reviewed publication** on the economic impact of inpatient falls. It connects software design with domain knowledge, data quality and evidence-based reasoning.
+
+[Healthcare and research projects](./PROJECTS.md#05--healthcare-workflow-software) · [Research and publication](./RESEARCH.md)
+
+**More work:** [PetFlow.PRO — SaaS architecture and iteration](./PROJECTS.md#04--petflowpro-product-iteration-and-architectural-evolution) · [PineLine — research workflow software](./PROJECTS.md#06--pineline-research-workflow-software)
+
+## Selected public work
+
+**[Funny-button](https://github.com/VAntoniazi/Funny-button)** is a small, dependency-free browser experiment in HTML, CSS and JavaScript with pointer/touch interaction and viewport-aware behavior. It is a public example of UI experimentation, **not** a substitute for my enterprise and SaaS portfolio.
+
+[View all public repositories](https://github.com/VAntoniazi?tab=repositories) · [Read the full engineering portfolio](./PROJECTS.md)
+
+> **Why are many repositories private?** Much of my work belongs to enterprise systems, client projects or commercial software with restricted source access. I describe technical responsibilities and project context publicly, but do not publish confidential code, credentials, customer information or proprietary rules.
+
+## Research, healthcare & analytical thinking
+
+**First author:** [*Economic Analysis of Falls in a Private Hospital in Southern Brazil—A Case–Control Study*](https://doi.org/10.1111/ijn.13313)
+
+*International Journal of Nursing Practice* (Wiley), **2024**, 30(6), e13313 · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39431424/) · [ORCID](https://orcid.org/0000-0001-7577-464X)
+
+The matched case-control study investigated the economic impact of inpatient falls using hospital data, accounting for confounding clinical factors. The research experience complements my software work in **health informatics, statistical reasoning, structured datasets and reliable operational systems**.
+
+My academic background includes **Nursing studies at Faculdade Moinhos de Vento**, with activities in healthcare and research alongside software engineering.
+
+[Research methods and publication details →](./RESEARCH.md)
+
+## How I build software
+
+1. **Understand the workflow.** Identify stakeholders, constraints, edge cases, current systems and the real operational problem.
+2. **Design clean boundaries.** Separate API contracts, business logic, persistence and UI, with careful backward compatibility for migrations.
+3. **Treat security and data integrity as core requirements.** Validate permissions server-side, protect sensitive data and preserve audit trails.
+4. **Make delivery reproducible.** Prefer automated checks, documented deployments, meaningful logging and tests targeted at actual risks.
+5. **Use AI with engineering judgment.** AI can help research, implement and review; deterministic controls, human validation and source verification remain essential.
+
+I am particularly interested in roles and collaborations involving **backend development, full-stack engineering, SaaS architecture, legacy modernization, complex integrations, data-intensive products and healthtech**.
+
+## Let's connect
+
+**[Professional website](https://pineapplelab.net/) · [LinkedIn](https://www.linkedin.com/in/victor-antoniazi/) · [Engineering portfolio](./PROJECTS.md) · [Research](./RESEARCH.md) · [Email](mailto:victor@petflow.pro)**
+
+<sub>Profile languages: English · <a href="./README.pt-BR.md">Português</a> · <a href="./README.es.md">Español</a>. Project descriptions distinguish public, private, active and exploratory work; no artificial activity counters or unsupported performance claims.</sub>
