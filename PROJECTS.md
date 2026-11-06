@@ -1,107 +1,218 @@
-# Selected Engineering Work
+# Victor Antoniazi Gonzalez — Engineering Portfolio
 
-[← Back to my GitHub profile](README.md)
+**Backend and full-stack software development · SaaS architecture · Enterprise APIs · SQL/data systems · Automation · Healthcare software**
 
-This page provides a deeper view of the types of systems I have designed, built, modernized and maintained. Some projects are private by design; descriptions focus on engineering responsibilities and product domains rather than proprietary source code, customer data or internal business rules.
+[← GitHub profile](README.md) · [Português](README.pt-BR.md) · [Español](README.es.md) · [Scientific research](RESEARCH.md) · [LinkedIn](https://www.linkedin.com/in/victor-antoniazi/)
 
-## 01 — Enterprise systems, operations and compliance
+This is a technical portfolio of the **software systems and engineering problems** I have worked on. It is designed to complement my [GitHub profile](https://github.com/VAntoniazi), not to imply that all source code is public or that every historical feature is currently deployed.
 
-**Type:** Private / client-controlled software · **Focus:** Backend, APIs, security, full-stack and modernization
+My professional focus is **backend engineering with full-stack product ownership**: relational data, business logic, API design, security, software modernization, automated workflows, UI and delivery.
 
-Enterprise work includes complex operational systems spanning document workflows, approval chains, employee and organizational management, fiscal processes, risk management, assets, facilities and business integrations.
+## At a glance
 
-**Engineering contributions and problem areas**
-
-- Modernizing legacy applications into clearer frontend, API, service and persistence boundaries.
-- Designing REST APIs using Python/FastAPI and maintaining integrations across existing technology stacks.
-- Implementing authorization using roles, permissions and resource-level restrictions, alongside authentication and audit trails.
-- Building workflows for documents, approvals, notifications and scheduled/background processing.
-- Working with transactional SQL data, imports, exports, idempotency and safe migrations.
-- Managing environment-specific release processes, regression tests and CI/CD with GitHub and Azure DevOps.
-
-**Engineering priorities:** correctness, traceability, incremental migration, maintainability and careful handling of operational data.
-
-> Source code and internal details are intentionally excluded where intellectual property, client agreements or access-control restrictions apply.
-
-## 02 — PinePet: business management SaaS for pet services
-
-**Type:** Product ecosystem · **Website:** [pinepet.com.br](https://pinepet.com.br)
-
-SaaS work focused on the operating needs of pet shops, grooming businesses, pet hotels and veterinary services.
-
-| Product domain | Engineering focus |
-| --- | --- |
-| Customer and pet management | Relational data modeling, validation, records and permissions |
-| Scheduling and operations | Appointments, service workflows and operational views |
-| Commerce and financial processes | Point of sale, transactions, inventory and payment-related integrations |
-| Account and tenant management | Onboarding, authentication, tenant separation and administrative controls |
-| Migration and integrations | Assisted onboarding, background tasks and external systems |
-| Content workflows | Research-oriented editorial automation, review states, scheduling and SEO-oriented metadata |
-
-**Key lesson:** SaaS architecture needs to balance product iteration, secure multi-tenant boundaries, business logic, background processing and a responsive interface.
-
-## 03 — Pineapple Lab: software services and operations platform
-
-**Type:** Founder-led software and service business · **Website:** [pineapplelab.net](https://pineapplelab.net/)
-
-A platform connecting a public-facing business presence with internal tools for delivering software projects and managing service operations.
-
-**Work areas:** websites and portals, internal workflows, customer/service information, project organization, integrations, messaging, infrastructure and automated content processes.
-
-The approach is practical and product-focused: choose simple deterministic solutions where possible, use APIs and automation to remove repetitive tasks, and incorporate AI only where its cost and operational complexity are justified.
-
-## 04 — PetFlow.PRO: product iteration and architectural evolution
-
-**Type:** Multi-application SaaS development · **Visibility:** Mostly private
-
-Earlier work on the pet-business software ecosystem, spanning application interfaces, account registration, authentication, supporting services and regional adaptations.
-
-This project family is relevant because it demonstrates hands-on experience with **product redesign**, authentication and onboarding, multi-service integration, deployment constraints, and evolution away from legacy application boundaries. The focus is not a claim that every historical component is still in production.
-
-## 05 — Healthcare workflow software
-
-**Type:** Academic/healthcare intervention project · **Visibility:** Private
-
-Software created in the context of a Nursing graduation intervention project associated with Hospital Moinhos de Vento, addressing healthcare staff scheduling and operational organization.
-
-The work connects healthcare-domain requirements with implementation choices such as structured business logic, relational persistence and layered **Controller → Service → Repository** organization.
-
-## 06 — PineLine: research workflow software
-
-**Type:** Exploratory / not a current daily-use product · **Visibility:** Private
-
-A research-oriented project exploring software support for organizing academic workflows, research information and scientific-production processes.
-
-The project reflects the value of provenance, reproducibility, structured datasets and explicit assumptions when software is used in research settings.
-
-## 07 — Data analysis and peer-reviewed research
-
-**Publication:** [*Economic Analysis of Falls in a Private Hospital in Southern Brazil—A Case–Control Study*](https://doi.org/10.1111/ijn.13313) · *International Journal of Nursing Practice* (2024) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39431424/)
-
-**Role:** First author. The study used matched case-control analysis to evaluate the association between inpatient falls and hospital costs, controlling for confounding factors. It represents hands-on interdisciplinary work across research methods, healthcare data, economic interpretation and scientific communication.
-
-Additional interests include analysis of public healthcare datasets, especially DATASUS, and tools that make technical and scientific work easier to review and reproduce.
-
-## 08 — Public experiments
-
-[**Funny-button**](https://github.com/VAntoniazi/Funny-button) is a small, dependency-free HTML/CSS/JavaScript interaction experiment. It demonstrates responsive interaction, touch/pointer handling and viewport-aware interface behavior.
-
-Other public repositories on this account include smaller experiments and application components. They are not intended to represent the full breadth of private enterprise or product work.
+| Product / domain | Primary engineering themes | Public evidence |
+| --- | --- | --- |
+| Enterprise operations and compliance | Modernization, REST APIs, authorization, approvals, auditability, SQL | Private/client-controlled systems |
+| PinePet | SaaS design, customer workflows, multi-tenant concerns, scheduling, commerce | [Product website](https://pinepet.com.br) |
+| Pineapple Lab | Custom software, business automation, services and integrations | [Company website](https://pineapplelab.net/) |
+| PetFlow.PRO | Product iterations, registration, authentication, service integration, migrations | Mostly private |
+| Healthcare operations | Scheduling, staff workflows, layered architecture, relational data | Private academic project |
+| PineLine | Research workflow tooling and structured scientific data | Private exploratory project |
+| Peer-reviewed research | Study design, analysis, healthcare data and scientific communication | [Wiley DOI](https://doi.org/10.1111/ijn.13313) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39431424/) |
+| Funny-button | Plain JavaScript interactions and responsive browser behavior | [Public source code](https://github.com/VAntoniazi/Funny-button) |
 
 ---
 
-## Cross-cutting engineering capabilities
+## 01 — Enterprise systems, operations and compliance
 
-| Discipline | Examples |
+**Context:** Internal business platforms, company-controlled repositories and client-confidential code.
+
+**My focus:** Backend services, full-stack administrative applications, application architecture, integration, database evolution and security.
+
+### Engineering problems
+
+Enterprise software rarely starts with a blank slate. Existing processes depend on legacy databases, integrations, approval hierarchies and permissions. A technically attractive rewrite can still fail if it interrupts a business workflow or weakens authorization.
+
+### Engineering work
+
+- **Architecture and modernization:** separating UI, controllers, API routes, services and repositories; introducing incremental changes while retaining contracts relied upon by existing processes.
+- **API-first integration:** building and consuming REST APIs to connect operational modules and avoid direct database access from unrelated components.
+- **Authorization:** role-based access control (RBAC), granular capabilities, server-side verification, audit evidence and careful handling of public/private endpoints.
+- **Approval and workflow design:** organizational relationships, multi-stage approvals, document processes, task assignments, notifications and controlled state transitions.
+- **Data and financial processes:** relational modeling, structured imports/exports, fiscal information workflows, validation, idempotency and transaction boundaries.
+- **Operational tooling:** logs, regression checks, deployment constraints, CI/CD and environment separation across development, testing and production.
+- **User experience:** responsive, data-rich interfaces for administrative workflows, complex filters, compact tables, modals and operational reporting.
+
+### Decisions that matter
+
+| Concern | Engineering priority |
 | --- | --- |
-| Software architecture | Controller/service/repository boundaries, modularity, API-first evolution, incremental modernization |
-| Backend | REST interfaces, authentication, authorization, background workers, integrations and validation |
-| Full-stack | TypeScript, JavaScript, React, responsive UX, complex administrative interfaces |
-| Data | PostgreSQL, MySQL, transactional models, SQL, operational reporting, data preparation and analysis |
-| Reliability | Regression and contract tests, idempotency, logging, auditability and safer releases |
-| Delivery | Docker, Nginx, Linux, Git, GitHub and Azure DevOps |
-| Applied AI | Context engineering, assisted implementation and review, grounded research, task automation and deterministic safeguards |
+| Legacy migration | Incremental compatibility instead of large unverified cutovers |
+| Access control | Enforcement at the API/service boundary, not only hiding controls in the UI |
+| Business transactions | Idempotency, consistent state, explicit failure handling and auditability |
+| Operational visibility | Logs and tests that connect technical behavior to business consequences |
+| Data ownership | Reuse owner APIs/contracts rather than introducing conflicting sources of truth |
 
-My engineering work emphasizes **clear requirements, maintainable architecture, explicit security boundaries and delivery that can be validated against real operational needs**.
+**Visibility and limits:** This summarizes representative technical experience, not one single public product. Specific customer records, infrastructure, proprietary business rules, credentials and institutional source code are excluded. Individual modules may be in different stages of delivery or validation.
 
-[Contact me on LinkedIn](https://www.linkedin.com/in/victor-antoniazi/) · [Explore Pineapple Lab](https://pineapplelab.net/)
+---
+
+## 02 — PinePet: business management SaaS for pet services
+
+**Context:** Software for pet shops, grooming services, boarding/day care and veterinary-related operations.
+
+**Public product:** [pinepet.com.br](https://pinepet.com.br)
+
+### Product complexity
+
+Pet businesses combine a surprising number of operational domains: customer records, animal records, recurring appointments, service execution, stock, commercial transactions, team permissions and administrative oversight. A SaaS product must support these workflows without losing isolation between customers or becoming difficult to maintain.
+
+### Engineering focus
+
+- **Core business data:** customer and pet records, relationships, validation and secure access.
+- **Scheduling:** appointments, service calendars, workflow status and operational organization.
+- **Commerce and stock:** point-of-sale requirements, inventory movements, financial and payment-related flows.
+- **Account lifecycle:** registration, onboarding, authentication, subscription-related integration and access boundaries.
+- **Tenant-aware services:** data separation, session and permission checks and administrative roles.
+- **Migration and operations:** assisted data onboarding, background processes, document/media workflows and integrations.
+- **Application experience:** responsive administration interfaces and usable flows for daily operations.
+
+### Architecture considerations
+
+**SQL design and data integrity** are central to appointments, stock and transactions. **Asynchronous work** is appropriate for slow integrations or document/media handling. **Explicit authorization** protects tenant boundaries independently of how an interface renders controls.
+
+The product's current state should be assessed through its live website and application; this portfolio does not claim that every item above is released or production-complete.
+
+---
+
+## 03 — Pineapple Lab: software services and operations platform
+
+**Context:** My independent software and automation business.
+
+**Public website:** [pineapplelab.net](https://pineapplelab.net/)
+
+Pineapple Lab connects my public service offerings with internal tools for delivering and operating software projects. The business offers software, websites, integrations, automation and data-oriented solutions.
+
+### Engineering work
+
+- Building public-facing web experiences and supporting applications.
+- Structuring customer, contract and project-related information.
+- Integrating communication channels and workflow automation.
+- Using background jobs and scheduled processes for recurring operations.
+- Managing infrastructure, application services and deployment workflows.
+- Developing AI-assisted editorial systems with deterministic workflow controls.
+
+### Example: research-oriented content automation
+
+This is a useful illustration of how I combine **conventional software and AI**. An editorial workflow needs more than text generation:
+
+1. A controlled catalogue of topics, categories and editorial rules determines what may be researched.
+2. Topic discovery and source gathering collect relevant material, including primary sources and scientific literature where appropriate.
+3. Previously published ideas and configured duplication windows help prevent repetitive output.
+4. Generation is followed by validation, editorial states and a review process.
+5. Scheduling, retries, queue processing and publication status are handled by deterministic application logic.
+
+**Design principle:** Use a language model for tasks that benefit from it; keep permissions, state transitions, validation, scheduling and persistence under explicit software control.
+
+---
+
+## 04 — PetFlow.PRO: product iteration and architectural evolution
+
+**Context:** Earlier and evolving pet-business SaaS implementations across multiple applications and supporting services.
+
+**Engineering themes:** Registration and authentication, frontend applications, portals, regional variants, backend services, messaging integrations, deployment and product redesign.
+
+PetFlow work helped surface the kinds of problems that appear when a product grows: fragmented services, inconsistent data contracts, duplicated frontend behavior, fragile routes, complex deployment configurations and changing user journeys.
+
+The relevant experience is not simply building individual pages. It includes comparing architectures, deciding which responsibilities belong in APIs, improving operational workflows and planning safe migrations rather than preserving every legacy technology forever.
+
+**Status:** Historical and ongoing work varies across implementations; individual repositories are not presented as uniformly active or production-ready.
+
+---
+
+## 05 — Healthcare workflow software
+
+**Context:** A Nursing graduation intervention project associated with **Hospital Moinhos de Vento**.
+
+**Problem domain:** Staff schedules and operational organization under healthcare-specific constraints.
+
+### Technical work
+
+- Modeling scheduling and administrative workflows from domain requirements.
+- Using **Controller → Service → Repository** separation to keep business rules understandable.
+- Representing records and relationships with a relational database.
+- Designing interfaces around the information professionals need for daily decisions.
+- Applying healthcare-domain understanding to requirements, terminology and validation.
+
+**Why it matters:** Healthcare software requires sensitivity to workflows, traceability and human factors. The same engineering decisions affect the safety, usability and maintainability of operational enterprise systems.
+
+**Visibility:** Academic/private repository. No confidential personnel data or hospital source material is published here.
+
+---
+
+## 06 — PineLine: research workflow software
+
+**Context:** Exploratory software for organizing scientific research and structured information.
+
+The project investigates ways software can support research organization, document/data workflows and scientific production. It remains a **background/exploratory project**, not an actively marketed or daily-use product.
+
+The engineering principles are the most transferable: **data provenance, reproducibility, explicit assumptions, validation and sensible automation**.
+
+---
+
+## 07 — Peer-reviewed research and health data
+
+**Publication:** [*Economic Analysis of Falls in a Private Hospital in Southern Brazil—A Case–Control Study*](https://doi.org/10.1111/ijn.13313)
+
+**First author:** Victor Antoniazi Gonzalez · *International Journal of Nursing Practice* (Wiley), **2024**, 30(6), e13313.
+
+**Research design:** Matched case-control study analyzing inpatient falls and hospital costs, accounting for relevant confounding characteristics.
+
+**Published finding:** Median costs were **US$7,520.26** for fall cases and **US$6,144.24** for nonfall cases (**p < 0.01**). This finding comes from the peer-reviewed study and is not a software outcome claim.
+
+[Read the research summary](RESEARCH.md) · [PubMed record](https://pubmed.ncbi.nlm.nih.gov/39431424/) · [ORCID](https://orcid.org/0000-0001-7577-464X)
+
+The research experience informs how I work with healthcare datasets, analysis, operational reporting and evidence-based engineering decisions.
+
+---
+
+## 08 — Public source code and experiments
+
+### [Funny-button](https://github.com/VAntoniazi/Funny-button)
+
+A compact experiment in native HTML, CSS and JavaScript, featuring pointer and touch handling, responsive behavior and viewport-aware positioning. It requires no runtime dependencies or build pipeline to open locally.
+
+It demonstrates focused frontend fundamentals but is **not** representative of the full scope of my private business software.
+
+[Browse my public GitHub repositories](https://github.com/VAntoniazi?tab=repositories)
+
+---
+
+## Engineering methods & technology
+
+| Discipline | Tools / approaches |
+| --- | --- |
+| Backend | Python, FastAPI, PHP, Node.js, Go, REST APIs, service/repository boundaries |
+| Frontend | TypeScript, JavaScript, React, HTML, CSS, responsive and data-heavy interfaces |
+| Data | PostgreSQL, MySQL, SQL, Python/Pandas, R, relational modeling, operational reporting |
+| Security | Authentication, RBAC, tenant boundaries, server-side checks, audit trails |
+| Reliability | Validations, idempotency, logging, contract/regression checks, safe releases |
+| Automation | Background workers, scheduled tasks, queues, APIs and messaging integrations |
+| Delivery | Docker, Nginx, Linux, Git, GitHub, Azure DevOps and CI/CD |
+| AI in engineering | Context engineering, assisted development/review, structured tasks and source-based research |
+
+### What I look for in a technical problem
+
+**Clear domain requirements, meaningful data, accountable design decisions, secure integrations and the ability to improve a system after the first release.** My strongest work combines development with the investigation and ownership needed to make complicated software dependable.
+
+---
+
+## Verification and confidentiality
+
+**Directly verifiable:** [GitHub profile](https://github.com/VAntoniazi), [Funny-button source](https://github.com/VAntoniazi/Funny-button), [Pineapple Lab website](https://pineapplelab.net/), [PinePet website](https://pinepet.com.br), [2024 published research](https://doi.org/10.1111/ijn.13313).
+
+**Private/limited visibility:** commercial and client software, internal APIs, enterprise data, deployment systems and academic operational projects. Their technical descriptions are summaries, not authorization to distribute source code.
+
+**No fabricated numbers:** this portfolio intentionally avoids invented customer counts, revenue, system throughput, repository activity or production-readiness claims.
+
+[← Back to my GitHub profile](README.md) · [Research](RESEARCH.md) · [LinkedIn](https://www.linkedin.com/in/victor-antoniazi/) · [Contact](mailto:victor@petflow.pro)
