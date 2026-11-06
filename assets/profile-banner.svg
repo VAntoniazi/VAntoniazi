@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Victor Antoniazi Gonzalez — Software Engineering</title>
+  <desc id="desc">Dark blue professional banner with a connected systems illustration.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#081625"/><stop offset="58%" stop-color="#10283E"/><stop offset="100%" stop-color="#12344B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#78E5D7"/><stop offset="100%" stop-color="#70AFFF"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#8BB6CF" opacity=".16"/>
+    </pattern>
+    <radialGradient id="glow"><stop stop-color="#55C4CE" stop-opacity=".15"/><stop offset="100%" stop-color="#55C4CE" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="320" rx="18" fill="url(#background)"/>
+  <rect x="0" y="0" width="1280" height="320" rx="18" fill="url(#dots)"/>
+  <circle cx="1075" cy="147" r="230" fill="url(#glow)"/>
+  <path d="M58 64 H119" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <text x="58" y="93" fill="#A8C4D5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="2.4">VICTOR ANTONIAZI GONZALEZ</text>
+  <text x="56" y="165" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" letter-spacing="-1.4">Software that solves</text>
+  <text x="56" y="222" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" letter-spacing="-1.4">real-world complexity.</text>
+  <text x="58" y="269" fill="#9EDFD8" font-family="Arial, Helvetica, sans-serif" font-size="18">Backend  /  Full-stack  /  SaaS  /  Data  /  Automation</text>
+  <g fill="none" stroke="#6CC7D3" stroke-width="2" opacity=".5">
+    <path d="M900 87 L1040 53 L1169 128 L1082 232 L938 250 L900 87"/>
+    <path d="M900 87 L1082 232 M1040 53 L938 250 M1040 53 L1082 232 M1169 128 L938 250"/>
+    <circle cx="1038" cy="150" r="68" stroke="#8ACCE5" opacity=".25"/>
+    <circle cx="1038" cy="150" r="103" stroke="#8ACCE5" opacity=".17"/>
+  </g>
+  <g fill="#102D45" stroke-width="3">
+    <circle cx="900" cy="87" r="12" stroke="#71DCD4"/>
+    <circle cx="1040" cy="53" r="10" stroke="#79B9FF"/>
+    <circle cx="1169" cy="128" r="14" stroke="#71DCD4"/>
+    <circle cx="1082" cy="232" r="13" stroke="#79B9FF"/>
+    <circle cx="938" cy="250" r="10" stroke="#71DCD4"/>
+    <circle cx="1038" cy="150" r="21" fill="#73D5DA" stroke="#B8F9EE"/>
+  </g>
+  <path d="M1241 290 H1213" stroke="#77D7DA" stroke-width="3" stroke-linecap="round"/>
+</svg>
